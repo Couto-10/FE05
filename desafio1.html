@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividades escolares</title>
+  </head>
+  <body>
+    <h1>Atividades escolares.</h1>
+
+    <ul>
+      <li><a href="#etapas">Etapas</a></li>
+      <li><a href="#atividades">Atividades</a></li>
+      <li><a href="#inscricao">Inscrições</a></li>
+    </ul>
+
+    <h2 id="etapas">Como Participar</h2>
+
+    <ol>
+      <li>Escolha uma atividade</li>
+      <li>Preencha o formulário</li>
+      <li>Envie sua inscrição</li>
+    </ol>
+
+    <p>Leia as instruções antes de continuar</p>
+    <p>As atividades são destinadas aos estudantes da escola</p>
+    <p>Consulte os horarios e escolha a opção desejada</p>
+    <p>Organize seus dados antes de preencher a inscrição</p>
+    <p>Confira todas as informações antes de enviar</p>
+
+    <h2 id="atividades">Atividades disponivels</h2>
+
+    <table border="1">
+      <thead>
+        <tr>
+        <th scope="col">Atividade</th>
+        <th scope="col">Turno</th>
+        </tr>
+        
+      </thead>
+      <tbody>
+        <tr>
+            <th>Desenvolvimento Web</td>
+            <td>Manhã</td>    
+        </tr>
+
+        <tr>
+            <th>Robotica</th>
+            <td>Tarde</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Desenvolvimento Web permite conhecer a criação de páginas.</p>
+    <p>Robótica explora a construção e a programação de projetos.</p>
+    <p>Escolha a atividade de acordo com seu interesse.</p>
+    <p>Depois, vá até a seção de inscrição.</p>
+    <p>Preencha os campos com atenção.</p>
+
+    <h2 id="inscricao">inscrição</h2>
+    <form action="https://httpbin.org/post" method="post">
+        <label for="name">Nome:<input type="text" required></label>
+        <br>
+        <br>
+        <label for="atividade">Atividade:<select name="name" id="atividade">
+        <option value="">Desenvolvimento Web</option>
+        <option value="">Robotica</option>
+        </select>
+        </label>
+        <br>
+        <br>
+        <button type="submit">Enviar inscrição</button>
+    </form>
+    
+  </body>
+</html>
